@@ -93,7 +93,7 @@
  * Base structure
  */
 
-body {}
+
 
 /*
  * Header
@@ -135,4 +135,15 @@ body {}
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+} 
+
+.header{ 
+background-color: gray; 
+opacity: 100%;
+} 
+
+.scrolling{ 
+  background-color: black; 
+  opacity: 90%; 
+  transition: all 0.5s;
 }
